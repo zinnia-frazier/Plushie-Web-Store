@@ -1,0 +1,146 @@
+
+/*  Global
+================================================= */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*  Typography
+================================================= */
+h1, h2, h3, p, li {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li a {
+    color: hsla(90, 50%, 20%, 1);
+    text-decoration: none;
+    text-align: center;
+    margin: 0 auto;
+}
+li a:hover {
+    color: hsla(90, 50%, 20%, 0.75);
+    text-decoration: underline;
+}
+
+#heading {
+    background-color: hsla(90, 50%, 20%, 1);
+    color: white;
+}
+
+/*  Structure
+================================================= */
+.container {
+    display: flex;
+    max-width: 95vw;
+    border: 2px solid black;
+    padding: 20px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.block {
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid green;
+    background-color: hsla(90, 50%, 80%, 1);
+    border-radius: 20px;
+}
+
+#header {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#product-wrap {
+    flex-wrap: wrap;
+}
+
+/*  Components
+================================================= */
+.btn {
+    border: 2px solid hsla(90, 50%, 20%, 1);
+    color: hsla(90, 50%, 20%, 1);
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+
+    cursor: pointer;
+    box-shadow: 5px 5px hsla(90, 50%, 20%, 0.5);
+}
+.btn:hover {
+    border: 2px solid hsla(90, 50%, 20%, 0.5);
+    color: white;
+    background-color: hsla(90, 50%, 20%, 1);
+}
+
+#email {
+    padding: 10px;
+    border-radius: 10px;
+
+    border: 2px solid black;
+}
+#email:hover {
+    border: 2px solid hsla(90, 50%, 20%, 0.75);
+}
+#email:active {
+    border: 2px solid hsla(90, 50%, 20%, 0.5);
+}
+
+/*  Layout
+================================================= */
+header {
+    background-color: hsla(90, 50%, 80%, 1);
+    height: 100px;
+    position: sticky;
+}
+
+footer {
+    background-color: hsla(270, 50%, 80%, 1);
+}
+
+.block ul li {
+    text-decoration: none;
+}
+
+header .container {
+    width: 25vw;
+    margin: 5px;
+}
+
+.container .header-list {
+    text-align: center;
+    justify-content: space-around;
+}
+.header-list li {
+    display: inline-flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 30%;
+    border: 1px solid red;
+    align-items: center;
+}
+   
+.header-logo h2 {
+    align-items: center;
+    height: 100%;
+}
+.row-reverse li {
+    justify-content: flex-end;
+}
+.container h1 {
+    margin: 0 auto;
+}
+
+img {
+    border-radius: 20px;
+    width: 100%;
+}
+.block img {
+    max-width: 800px;
+}
+
+.third {
+    width: 25vw;
+}
