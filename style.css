@@ -5,6 +5,9 @@
     padding: 0;
     margin: 0;
 }
+main {
+    background-color: hsla(90, 50%, 90%, 1);
+}
 
 /*  Typography
 ================================================= */
@@ -145,7 +148,10 @@ header .container {
 img {
     border-radius: 20px;
     width: 100%;
+    border: 2px solid black;
+    background-color: hsla(270, 50%, 90%, 1);
 }
+
 .block img {
     max-width: 800px;
 }
