@@ -10,6 +10,8 @@
 ================================================= */
 h1, h2, h3, p, li {
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    color: hsla(90, 50%, 20%, 1);
 }
 
 li a {
@@ -28,6 +30,10 @@ li a:hover {
     color: white;
 }
 
+#heading h1 {
+    color: hsla(90, 50%, 90%, 1);
+}
+
 .center-text {
     text-align: center;
     margin: 0 auto;
@@ -37,8 +43,7 @@ li a:hover {
 ================================================= */
 .container {
     display: flex;
-    max-width: 95vw;
-    border: 2px solid black;
+    max-width: 97vw;
     padding: 20px;
     flex-wrap: wrap;
     margin: 0 auto;
@@ -106,10 +111,6 @@ header {
 
 footer {
     background-color: hsla(270, 50%, 80%, 1);
-}
-
-.block ul li {
-    text-decoration: none;
 }
 
 header .container {
